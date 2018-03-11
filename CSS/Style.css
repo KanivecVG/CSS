@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+        }
+header{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.container{
+    width: 899px;
+    margin: 0 auto;
+    color: #8e8e8e;
+font-family: Arial, sans-serif;
+font-size: 23px;
+line-height: 21px;
+    }
+
+    
+div{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.text li{
+    display: inline-block;
+    text-transform: uppercase;}
+    
+   
+   .text li:not(:last-child) 
+   {
+    margin-right: 100px;
+}
+
+a{text-decoration: none;}
+button{
+    height: 60px;
+    width: 130px;
+}
